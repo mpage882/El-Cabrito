@@ -1,0 +1,28 @@
+/* Adding background color*/
+body {
+    background-color: #EAE1DF;
+}
+
+/* Menu Colr */
+.homemenu {
+    background-color: #2B2C28;
+    overflow: visible;
+    position: absolute;
+    width:100%;
+    height: 86px;
+    left: 0px;
+    top: 0px;
+}
+
+/* Menu Text */
+.homemenu a {
+    float: left;
+    color:#EAE1DF;
+    text-align: center;
+    width: 129px;
+    height: 31px;
+    left: 44px;
+    padding: 30px;
+
+}
+
