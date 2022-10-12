@@ -19,6 +19,7 @@ body {
     float: left;
     color:#EAE1DF;
     text-align: center;
+    text-decoration: none;
     font-family: Arial;
     font-style: normal;
     font-size: 24px;
@@ -30,6 +31,7 @@ body {
 
 /* Order Button */
 .homemenu button {
+    border: none;
     float: left;
     margin-top: 20px;
     margin-left: 44px; 
