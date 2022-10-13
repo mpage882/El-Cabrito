@@ -31,11 +31,19 @@ body {
     display: block;
     text-align: center;
     padding: 16px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400; 
+    color: #FFFFFF;
 }
 
 /*Order Here Button*/
 .menubar button {
+    border-style: none;
+    border-radius: 7px;
     margin-left: 16px;
     margin-right: 20px;
+    background: #A10702;
+    text-align: center;
 
 }
