@@ -3,56 +3,5 @@ body {
     background-color: #EAE1DF;
 }
 
+
 /* Menu Colr */
-.homemenu {
-    background-color: #2B2C28;
-    overflow: visible;
-    position: absolute;
-    width:100%;
-    height: 86px;
-    left: 0px;
-    top: 0px;
-}
-
-/* Menu Text */
-.homemenu a {
-    float: left;
-    color:#EAE1DF;
-    text-align: center;
-    text-decoration: none;
-    font-family: Arial;
-    font-style: normal;
-    font-size: 24px;
-    width: 129px;
-    height: 31px;
-    left: 44px;
-    padding: 30px;
-}
-
-/* Order Button */
-.homemenu button {
-    border: none;
-    float: left;
-    margin-top: 20px;
-    margin-left: 44px; 
-    width: 140px;
-    height: 45px;
-    left: 1239px;
-    top: 21px;
-    background: #A10702;
-    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
-
-    /* Text */
-
-    color:#EAE1DF;
-    text-align: center;
-    font-family: Arial;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-
-    
-    
-}
