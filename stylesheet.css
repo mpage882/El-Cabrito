@@ -3,5 +3,11 @@ body {
     background-color: #EAE1DF;
 }
 
-
-/* Menu Colr */
+/* Menu Color */
+.menubar {
+    background: #2B2C28;
+    overflow: visible;
+    height: 86px;
+    left: 0px;
+    top: 0px;
+}
