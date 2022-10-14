@@ -22,6 +22,7 @@ body {
     color: #FFFFFF;
     /*FIXME - For some reason, this affects the whole menu*/
     margin-top: -3px;
+  
 }
 .menuright #dropdown-items {
     color:#2B2C28;
@@ -75,9 +76,11 @@ body {
 }
 
 #homecarousel {
-    margin-top: 10px;
+    margin-top: 15px;
     
 }
 #homecarousel img {
-    height: 500px;
+    aspect-ratio: auto 16/9;
+    /*Note - change images height and width to 1440x538 so it spreads better*/
+   
 }
