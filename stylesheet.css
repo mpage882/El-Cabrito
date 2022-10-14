@@ -14,16 +14,18 @@ body {
 
 /*Language Text*/
 .menubar #language-drop {
+    display: block;
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400; 
     color: #FFFFFF;
     /*FIXME - For some reason, this affects the whole menu*/
-    margin-top: -4px;
+    margin-top: -3px;
 }
-
-
 .menubar #dropdown-items {
     color:#2B2C28;
 }
-
 
 /*Right Menu List Format*/
 .menubar #nav-right {
@@ -32,10 +34,9 @@ body {
    padding: 0;
    
 }
-
 .menubar #nav-right li {
     float: right;
-    margin-top: -46px;
+    margin-top: -47px;
 
 }
 
@@ -62,3 +63,11 @@ body {
 
 }
 
+/*El Cabrtito Logo*/
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 15px;
+}
