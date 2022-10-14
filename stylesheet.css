@@ -23,25 +23,25 @@ body {
     /*FIXME - For some reason, this affects the whole menu*/
     margin-top: -3px;
 }
-.menubar #dropdown-items {
+.menuright #dropdown-items {
     color:#2B2C28;
 }
 
 /*Right Menu List Format*/
-.menubar #nav-right {
+.menuright #nav-right {
    list-style: none;
    margin: 0;
    padding: 0;
    
 }
-.menubar #nav-right li {
+.menuright #nav-right li {
     float: right;
     margin-top: -47px;
 
 }
 
 /*Right Menu Items Link Texts*/
-.menubar #nav-right li a{
+.menuright #nav-right li a{
     display: block;
     text-decoration: none;
     text-align: center;
@@ -53,7 +53,7 @@ body {
 }
 
 /*Order Here Button*/
-.menubar button {
+.menuright button {
     border-style: none;
     border-radius: 7px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
