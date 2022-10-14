@@ -13,9 +13,12 @@ body {
 }
 
 /*Language Text*/
-.menubar li a {
-    color:#EAE1DF;
+.menubar #language-drop {
+    color: #FFFFFF;
+    /*FIXME - For some reason, this affects the whole menu*/
+    margin-top: -4px;
 }
+
 
 .menubar #dropdown-items {
     color:#2B2C28;
@@ -23,21 +26,21 @@ body {
 
 
 /*Right Menu List Format*/
-.menubar menu-items {
+.menubar #nav-right {
    list-style: none;
    margin: 0;
    padding: 0;
    
 }
 
-.menubar ul li {
+.menubar #nav-right li {
     float: right;
-    margin-top: -50px;
+    margin-top: -46px;
 
 }
 
 /*Right Menu Items Link Texts*/
-.menubar ul li a{
+.menubar #nav-right li a{
     display: block;
     text-decoration: none;
     text-align: center;
