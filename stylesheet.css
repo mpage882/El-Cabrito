@@ -17,13 +17,13 @@ body {
     color:#EAE1DF;
 }
 
-.menubar li dropdown-menu a{
+.menubar #dropdown-items {
     color:#2B2C28;
 }
 
 
 /*Right Menu List Format*/
-.menubar ul {
+.menubar menu-items {
    list-style: none;
    margin: 0;
    padding: 0;
