@@ -73,3 +73,11 @@ body {
     width: 50%;
     margin-top: 15px;
 }
+
+#homecarousel {
+    margin-top: 10px;
+    
+}
+#homecarousel img {
+    height: 500px;
+}
