@@ -12,6 +12,15 @@ body {
     top: 0px;
 }
 
+/*Language Text*/
+.menubar li a {
+    color:#EAE1DF;
+}
+
+.menubar li dropdown-menu a {
+    color:#2B2C28;
+}
+
 /*Right Menu List Format*/
 .menubar ul {
    list-style: none;
@@ -29,6 +38,7 @@ body {
 /*Right Menu Items Link Texts*/
 .menubar ul li a{
     display: block;
+    text-decoration: none;
     text-align: center;
     padding: 16px;
     font-family: 'Arial';
