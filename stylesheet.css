@@ -80,9 +80,8 @@ body {
     
 }
 #homecarousel img {
+     /*Note - change images height and width to 1440x538 so it spreads better*/  
     aspect-ratio: auto 16/9;
-    /*Note - change images height and width to 1440x538 so it spreads better*/
-   
 }
 
 .column {
