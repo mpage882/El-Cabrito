@@ -1,0 +1,32 @@
+.carousel {
+    overflow: hidden;
+    max-width: 1200px;
+    position: relative;
+}
+
+.carousel .carousel_item,
+.carousel .carousel_item--hidden {
+    display: none;
+}
+
+.carousel .carousel_item img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+}
+
+.carousel .carousel_item--visible {
+    display: block;
+}
+
+/*Carousel Buttons*/
+.carousel .carousel_actions {
+    /* allows buttons to keep even space between */
+    display: flex;
+    justify-content: space-between;
+    /*Now can move the buttons after making position absolute*/
+    position: absolute;
+    top: 50%;
+    /* to get buttons directly in the middle since above doesn't count for size */
+    transform: translateY(-50%);
+}
