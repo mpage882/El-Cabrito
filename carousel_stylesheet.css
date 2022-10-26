@@ -1,7 +1,12 @@
 .carousel {
     overflow: hidden;
-    max-width: 1200px;
+    max-width: 780px;
     position: relative;
+}
+
+/*Keeps images in place*/
+.carousel .image_carousel {
+    display: flex;
 }
 
 .carousel .carousel_item,
@@ -11,18 +16,18 @@
 
 .carousel .carousel_item img {
     max-width: 200px;
+    min-width: 200px;
     height: 200px;
-    width: 100%;
-    padding-left: 30px;
-    padding-top: 20px;
-   
-   
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .carousel .carousel_item--visible {
-    display: block;
-    float: left;
-   
+    float: left; 
+    display: block; 
+    padding-left: 30px; 
+    padding-right: 30px;
 }
 
 /*Carousel Buttons*/
