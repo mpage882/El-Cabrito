@@ -10,13 +10,19 @@
 }
 
 .carousel .carousel_item img {
-    width: 100%;
     max-width: 200px;
     height: 200px;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 20px;
+   
+   
 }
 
 .carousel .carousel_item--visible {
     display: block;
+    float: left;
+   
 }
 
 /*Carousel Buttons*/
