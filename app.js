@@ -40,9 +40,7 @@ function movetoNextSlide(){
     } else {
         slidePosition ++;
     }
-    for (let i = 0; i <= 3; i++){
-        updateSlidePosition();
-        console.log(totalSlides);  
-    }
-
+ 
+    updateSlidePosition();
+    console.log(totalSlides);  
 }
