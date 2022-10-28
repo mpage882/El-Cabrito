@@ -1,0 +1,40 @@
+.carousel {
+    position: relative;
+    overflow: hidden;
+    padding; 20px;
+}
+
+.current-specials {
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-container {
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+/*Only works for Chrome, Opera, Safari, Firefox, iOS device browsers and a few others */
+.product-container::-webkit-scrollbar {
+    display: none;
+}
+
+.product-card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+}
+
+.product-image {
+    position: relative;
+    /* width: 100%; */
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
