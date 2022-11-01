@@ -118,7 +118,7 @@ body {
     font-family: Edo;
     color: #EAE1DF;
 }
-
+/*FIX ME try changing margin top - 10/30*/
 .product-container {
     padding: 0 10vw;
     display: flex;
@@ -136,6 +136,8 @@ body {
     width: 250px;
     height: 450px;
     margin-right: 40px;
+    background-color: #fff;
+    border-radius: 5px;
 }
 
 .product-image {
@@ -144,6 +146,8 @@ body {
     width: 250px;
     height: 200px;
     overflow: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .product-thumb {
@@ -230,6 +234,7 @@ body {
     width: 5vw;
     height: 5vw;
     position: absolute;
+    margin-top: 10%;
     /* top: 70%; */
     display: flex;
     justify-content: center;
