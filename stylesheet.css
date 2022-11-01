@@ -1,11 +1,11 @@
 /* Adding background color*/
 body {
-    background-color: #EAE1DF;
+    background-color: #2B2C28;
 }
 
 /* Menu Color */
 .menubar {
-    background: #2B2C28;
+    background: #1b1b19;
     overflow: visible;
     height: 86px;
     left: 0px;
@@ -24,6 +24,12 @@ body {
     margin-top: -3px;
   
 }
+
+/*FIX ME - */
+#language-drop:hover {
+    color: #47856F;
+}
+
 .menuright #dropdown-items {
     color:#2B2C28;
 }
@@ -51,6 +57,10 @@ body {
     font-style: normal;
     font-weight: 400; 
     color: #FFFFFF;
+}
+
+#nav-right li a:hover {
+    color: #47856F;
 }
 
 /*Order Here Button*/
@@ -98,9 +108,15 @@ body {
     padding-bottom: 20px;
 }
 
+.break {
+    height: 10px;
+    width: auto;
+    background-color: #EAE1DF;
+}
+
 /*Lunch Special SLider*/
 .product-slider {
-    background: #47856F;
+    background: #EAE1DF;
 }
 
 .slider {
@@ -114,9 +130,9 @@ body {
     font-size: 30px;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 40px;
+    /* margin-bottom: 10px; */
     font-family: Edo;
-    color: #EAE1DF;
+    color: #47856F;
 }
 /*FIX ME try changing margin top - 10/30*/
 .product-container {
@@ -136,7 +152,7 @@ body {
     width: 250px;
     height: 450px;
     margin-right: 40px;
-    background-color: #fff;
+    background-color: #FFFFFF;
     border-radius: 5px;
 }
 
@@ -204,7 +220,7 @@ body {
 .product-name {
     text-transform: uppercase;
     font-family: Arial;
-    margin-top: -5px;
+    margin-top: 5px;
 }
 
 .product-short-desc {
