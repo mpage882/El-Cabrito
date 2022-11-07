@@ -324,3 +324,7 @@ body {
     height: 30vw;
     background-color: #2B2C28;
 }
+
+.contact .contact-txt {
+    color: #fff;
+}
