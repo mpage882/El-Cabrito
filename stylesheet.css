@@ -26,9 +26,9 @@ body {
 }
 
 /*FIX ME - */
-#language-drop:hover {
+/* #language-drop:hover {
     color: #47856F;
-}
+} */
 
 .menuright #dropdown-items {
     color:#2B2C28;
@@ -109,7 +109,7 @@ body {
 }
 
 .break {
-    height: 10px;
+    height: 30px;
     width: auto;
     background-color: #EAE1DF;
 }
@@ -126,18 +126,20 @@ body {
 }
 
 .current-specials {
-    padding: 5vw 10vw;
+    padding: 30px;
     font-size: 30px;
     font-weight: 500;
     text-align: center;
     /* margin-bottom: 10px; */
     font-family: Edo;
     color: #47856F;
+   
 }
 /*FIX ME try changing margin top - 10/30*/
 .product-container {
-    padding: 0 10vw;
+    padding: 0 10vw 10vw;
     display: flex;
+    overflow-y: hidden;
     overflow-x: auto;
     scroll-behavior: smooth;
 }
@@ -184,6 +186,7 @@ body {
     text-transform: capitalize;
 }
 
+/*Order Now Button over Image*/
 .card-btn {
     position: absolute;
     bottom: 50px;
@@ -244,6 +247,7 @@ body {
     text-decoration: line-through;
 }
 
+/*Current Specials' Buttons*/
 .pre-btn, 
 .nxt-btn {
     border: none;
@@ -261,6 +265,7 @@ body {
     z-index: 9;
 }
 
+/*Buttons' Location*/
 .pre-btn {
     left: 0;
 }
@@ -269,6 +274,7 @@ body {
     right: 0;
 }
 
+/*Buttons' Icon Image*/
 .pre-btn img,
 .nxt-btn img{
     opacity: 0.2;
@@ -310,4 +316,11 @@ body {
 .collection:nth-child(3) {
     grid-column: span 2;
     margin-bottom: 10px;
+}
+
+/*--Contact Section--*/
+.contact {
+    width: auto;
+    height: 30vw;
+    background-color: #2B2C28;
 }
