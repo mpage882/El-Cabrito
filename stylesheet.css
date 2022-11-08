@@ -1,6 +1,6 @@
 /* Adding background color*/
 body {
-    background-color: #2B2C28;
+    background-color: #EAE1DF;
 }
 
 /* Menu Color */
@@ -59,6 +59,7 @@ body {
     color: #FFFFFF;
 }
 
+/*Right Menu Hover Color*/
 #nav-right li a:hover {
     color: #47856F;
 }
@@ -108,16 +109,12 @@ body {
     padding-bottom: 20px;
 }
 
-.break {
-    height: 30px;
-    width: auto;
-    background-color: #EAE1DF;
+/*Lunch Special SLider*/
+/*Background color for Current Specials*/
+.product-slider {
+    background: #47856F;
 }
 
-/*Lunch Special SLider*/
-.product-slider {
-    background: #EAE1DF;
-}
 
 .slider {
     position: relative;
@@ -125,6 +122,7 @@ body {
     padding: 20px;
 }
 
+/*Heading Text - Current Specials*/
 .current-specials {
     padding: 30px;
     font-size: 30px;
@@ -132,10 +130,10 @@ body {
     text-align: center;
     /* margin-bottom: 10px; */
     font-family: Edo;
-    color: #47856F;
-   
+    color: #EAE1DF;   
 }
-/*FIX ME try changing margin top - 10/30*/
+
+/*Controls Flex of Slider, Padding, & Scrolling*/
 .product-container {
     padding: 0 10vw 10vw;
     display: flex;
@@ -149,6 +147,7 @@ body {
     display: none;
 }
 
+/*--Card containing Item's Info below Image--*/
 .product-card {
     flex: 0 0 auto;
     width: 250px;
@@ -174,7 +173,7 @@ body {
     object-fit: cover;
 }
 
-/*If using special tag, uncomment tag in html*/
+/*If using special tag on top, uncomment tag in html*/
 .special-tag {
     position: absolute;
     background: #fff;
@@ -186,7 +185,7 @@ body {
     text-transform: capitalize;
 }
 
-/*Order Now Button over Image*/
+/*--Order Now Button over Image--*/
 .card-btn {
     position: absolute;
     bottom: 50px;
@@ -210,10 +209,11 @@ body {
 }
 
 .card-btn:hover {
-    background: black;
+    background: #1b1b19;
     color: #fff;
 }
 
+/*--Product's Info Within Card--*/
 .product-info {
     width: 100%;
     height: 100%;
@@ -236,18 +236,20 @@ body {
     margin: 5px 0;
 }
 
+/*Current Price to Show*/
 .special-price {
     font-weight: 900;
     font-size: 20px;
 }
 
+/*Orginal Price to Cross Out*/
 .org-price {
     margin-left: 20px;
     opacity: 0.5;
     text-decoration: line-through;
 }
 
-/*Current Specials' Buttons*/
+/*--Current Specials' Navigation Buttons--*/
 .pre-btn, 
 .nxt-btn {
     border: none;
@@ -285,6 +287,8 @@ body {
     opacity: 1;
 }
 
+
+/*--Collection Styling--*/
 .collection-container {
     width: 100%;
     display: grid;
@@ -313,18 +317,41 @@ body {
     text-transform: capitalize;
 }
 
+/*Controls how many to scroll by*/
 .collection:nth-child(3) {
-    grid-column: span 2;
+    grid-column: span 1;
     margin-bottom: 10px;
 }
 
 /*--Contact Section--*/
-.contact {
+.footer {
     width: auto;
     height: 30vw;
-    background-color: #2B2C28;
+    background-color: #EAE1DF;
 }
 
-.contact .contact-txt {
-    color: #fff;
+.contact-heading, 
+.location-heading {
+    color: #1b1b19;
+    font-size: 24px;
+}
+
+.contact p, 
+.location p {
+    color: #1b1b19;
+    font-size: 12px;
+}
+
+.contact, 
+.location {
+    margin-top: 50px;
+    position: absolute;
+} 
+
+.contact {
+    left: 10vw;
+}
+
+.location {
+    right: 10vw;
 }
