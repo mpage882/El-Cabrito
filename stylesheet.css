@@ -130,7 +130,9 @@ body {
     text-align: center;
     /* margin-bottom: 10px; */
     font-family: Edo;
-    color: #EAE1DF;   
+    color: #EAE1DF;
+    opacity: 95%;  
+    text-shadow: 7px 7px 15px #1b1b19; 
 }
 
 /*Controls Flex of Slider, Padding, & Scrolling*/
@@ -154,8 +156,9 @@ body {
     width: 250px;
     height: 450px;
     margin-right: 40px;
-    background-color: #FFFFFF;
+    background-color: #fff;
     border-radius: 5px;
+    box-shadow: 7px 7px 15px;
 }
 
 .product-image {
