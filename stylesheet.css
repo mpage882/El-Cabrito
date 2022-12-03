@@ -366,6 +366,11 @@ body {
     margin-bottom: 50px;
 } 
 
+.map {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 
 /*--@media Size Section--*/
 /*Change font size with @ media*/
@@ -436,6 +441,25 @@ body {
     /*--MENU Portion--*/
     .menubar a{
         font-size: 14px;
+    }
+
+    .menuright {
+        padding-top: 3px;
+    }
+
+    .menuright #nav-right li a {
+        padding-right: 2px;
+    }
+
+    .menuright button {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-right: 12px;
+    }
+
+    .menuright button a {
+        font-size: 12px;
+        text-align: center;
     }
 
 }
