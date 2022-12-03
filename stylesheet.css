@@ -82,7 +82,9 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    /* width: 50%; */
+    width: 355px; 
+    height: 95px;
     margin-top: 15px;
 }
 
@@ -336,7 +338,7 @@ body {
 
 /*--Contact Section--*/
 .footer {
-    padding: 10px;
+    margin-left: 10px;
 }
 
 #footer-grid {
@@ -364,4 +366,79 @@ body {
     margin-bottom: 50px;
 } 
 
+
+/*--@media Size Section--*/
 /*Change font size with @ media*/
+@media screen and (max-width: 600px){
+    /*Footer Section*/
+    #footer-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-heading, .hours-heading,
+    .location-heading {
+        font-size: 20px;
+        color: #1b1b19;
+    }
+
+    .contact p, .hours p, 
+    .location p {
+    color: #1b1b19;
+    font-size: 12px;
+    margin: 0;
+    }
+
+    /*Current Specials/Multi-Image SLider Section*/
+    .current-specials{
+        font-size: 24px;
+    }
+
+    .product-card{
+        width: 200px;
+        height: 360px;
+    }
+
+    /**FIXME*/
+    .card-btn{
+        width: 75%;
+        padding: 5px;
+    }
+
+    .product-image{
+        width: 200px;
+        height: 150px;
+    }
+
+    .product-name {
+       font-size: 24px;
+    }
+
+    .product-short-desc{
+        font-size: 12px;
+    } 
+    
+    .org-price{
+        font-size: 12px;
+    }
+
+    .special-price {
+       font-size: 16px;
+    }
+
+
+    /*--Homepage logo--*/
+    #logo {
+        width: 50%;
+        height: 50%;
+    }
+
+    /*--MENU Portion--*/
+    .menubar a{
+        font-size: 14px;
+    }
+
+}
+
+
+
