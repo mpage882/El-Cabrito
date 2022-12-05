@@ -31,9 +31,9 @@ body {
 /*--Order Here Button--*/
 .order_here {
     position: absolute;
-    right: 15px;
+    right: 25px;
     margin: 10px;
-    font-size: 18px; 
+    font-size: 20px; 
     background-color: #A10702; 
     border-style: none;
     border-color: #A10702;
@@ -72,6 +72,13 @@ body {
     aspect-ratio: auto 16/9;
 }
 
+/*--Border below Slideshow--*/
+.break {
+    background: #A10702;
+    height: 5px;
+}
+
+
 .column {
     width: 100%;
     background: #47856F;
@@ -86,12 +93,12 @@ body {
     padding-bottom: 20px;
 }
 
-/*Lunch Special SLider*/
+
+/*--Lunch Special SLider--*/
 /*Background color for Current Specials*/
 .product-slider {
     background: #47856F;
 }
-
 
 .slider {
     position: relative;
@@ -169,6 +176,7 @@ body {
 .product-info {
     padding-left: 5px;
 }
+
 
 /*--Order Now Button over Image--*/
 .card-btn {
@@ -400,7 +408,6 @@ body {
         width: 200px;
         height: 360px;
     }
-
   
     .card-btn{
         width: 75%;
@@ -445,6 +452,10 @@ body {
 
     /*--MENU Portion--*/
     .menu li {
+        font-size: 18px;
+    }
+
+    .order_here {
         font-size: 18px;
     }
 
